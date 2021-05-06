@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clients_of_kars_on_server</string>
+    <string name="title_project">"Регистрация"</string>
+    <string name="Input_name">"Введите имя:"</string>
+    <string name="Input_sername">"Введите фамилию:"</string>
+    <string name="Button_name">"Зарегистрироваться"</string>
+</resources>

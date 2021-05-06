@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Clients_of_kars_on_server"

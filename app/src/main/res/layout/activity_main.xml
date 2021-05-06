@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "@string/title_project"
+        android:textSize="30dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/Input_name"
+        android:textSize="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/User_name"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </TextView>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/Input_sername"
+        android:textSize="15dp">
+    </TextView>
+    <EditText
+        android:id="@+id/User_sername"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="50dp">
+    </EditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </TextView>
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:onClick="SignUpOnClick"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_gravity="center"
+        android:text="@string/Button_name"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold">
+    </Button>
+
+    <TextView
+        android:id="@+id/testWork"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>
